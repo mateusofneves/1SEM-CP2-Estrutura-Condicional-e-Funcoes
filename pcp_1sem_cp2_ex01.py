@@ -13,25 +13,26 @@ if(CC >= 10 and CC <= 20):
     # calculo para retirar o preço bruto da carga
     preco_Kq = Tone_Kq * 100
     if(CE == 1):
-        imposto = preco_Kq / 0.35
+        #calculo do imposto
+        imposto = preco_Kq * 0.35
         valor_total = imposto + preco_Kq
         print(f"Peso da carga em Kq: {Tone_Kq:.2f}. \n Preço da carga do caminhao {preco_Kq:.2f}.\n "
               f"Valor do imposto: {imposto:.2f}.\n Valor total: {valor_total:.2f} \n ")
 
     elif(CE == 2):
-        imposto = preco_Kq / 0.25
+        imposto = preco_Kq * 0.25
         valor_total = imposto + preco_Kq
         print(f"Peso da carga em Kq: {Tone_Kq:.2f}. \n Preço da carga do caminhao {preco_Kq:.2f}. \n "
               f"Valor do imposto: {imposto:.2f}. \n Valor total: {valor_total:.2f} \n")
 
     elif (CE == 3):
-        imposto = preco_Kq / 0.15
+        imposto = preco_Kq * 0.15
         valor_total = imposto + preco_Kq
         print(f"Peso da carga em Kq: {Tone_Kq:.2f}.\n Preço da carga do caminhao {preco_Kq:.2f}. \n "
               f"Valor do imposto: {imposto:.2f}.\n Valor total: {valor_total:.2f} \n")
 
     elif (CE == 4):
-        imposto = preco_Kq / 0.05
+        imposto = preco_Kq * 0.05
         valor_total = imposto + preco_Kq
         print(f"Peso da carga em Kq: {Tone_Kq:.2f}.\n Preço da carga do caminhao {preco_Kq:.2f}.\n "
               f"Valor do imposto: {imposto:.2f}.\n Valor total: {valor_total:.2f} \n ")
@@ -49,25 +50,25 @@ if(CC >= 10 and CC <= 20):
 if(CC >= 21 and CC <= 30):
     preco_Kq = Tone_Kq * 250
     if (CE == 1):
-        imposto = preco_Kq / 0.35
+        imposto = preco_Kq * 0.35
         valor_total = imposto + preco_Kq
         print(f"Peso da carga em Kq: {Tone_Kq:.2f}.\n Preço da carga do caminhao {preco_Kq:.2f}.\n "
               f"Valor do imposto: {imposto:.2f}.\n Valor total: {valor_total:.2f} \n")
 
     elif (CE == 2):
-        imposto = preco_Kq / 0.25
+        imposto = preco_Kq * 0.25
         valor_total = imposto + preco_Kq
         print(f"Peso da carga em Kq: {Tone_Kq:.2f}.\n Preço da carga do caminhao {preco_Kq:.2f}.\n "
               f"Valor do imposto: {imposto:.2f}.\n Valor total: {valor_total:.2f} \n")
 
     elif (CE == 3):
-        imposto = preco_Kq / 0.15
+        imposto = preco_Kq * 0.15
         valor_total = imposto + preco_Kq
         print(f"Peso da carga em Kq: {Tone_Kq:.2f}.\n Preço da carga do caminhao {preco_Kq:.2f}.\n "
               f"Valor do imposto: {imposto:.2f}.\n Valor total: {valor_total:.2f} \n")
 
     elif (CE == 4):
-        imposto = preco_Kq / 0.05
+        imposto = preco_Kq * 0.05
         valor_total = imposto + preco_Kq
         print(f"Peso da carga em Kq: {Tone_Kq:.2f}.\n Preço da carga do caminhao {preco_Kq:.2f}.\n "
               f"Valor do imposto: {imposto:.2f}.\n Valor total: {valor_total:.2f}\n ")
@@ -83,25 +84,25 @@ if(CC >= 21 and CC <= 30):
 if(CC >= 31 and CC <= 40):
     preco_Kq = Tone_Kq * 340
     if (CE == 1):
-        imposto = preco_Kq / 0.35
+        imposto = preco_Kq * 0.35
         valor_total = imposto + preco_Kq
         print(f"Peso da carga em Kq: {Tone_Kq:.2f}.\n Preço da carga do caminhao {preco_Kq:.2f}.\n "
               f"Valor do imposto: {imposto:.2f}.\n Valor total: {valor_total:.2f} \n")
 
     elif (CE == 2):
-        imposto = preco_Kq / 0.25
+        imposto = preco_Kq * 0.25
         valor_total = imposto + preco_Kq
         print(f"Peso da carga em Kq: {Tone_Kq:.2f}.\n Preço da carga do caminhao {preco_Kq:.2f}.\n "
               f"Valor do imposto: {imposto:.2f}.\n Valor total: {valor_total:.2f}\n ")
 
     elif (CE == 3):
-        imposto = preco_Kq / 0.15
+        imposto = preco_Kq * 0.15
         valor_total = imposto + preco_Kq
         print(f"Peso da carga em Kq: {Tone_Kq:.2f}.\n Preço da carga do caminhao {preco_Kq:.2f}.\n "
               f"Valor do imposto: {imposto:.2f}.\n Valor total: {valor_total:.2f}\n ")
 
     elif (CE == 4):
-        imposto = preco_Kq / 0.05
+        imposto = preco_Kq * 0.05
         valor_total = imposto + preco_Kq
         print(f"Peso da carga em Kq: {Tone_Kq:.2f}.\n Preço da carga do caminhao {preco_Kq:.2f}. \n"
               f"Valor do imposto: {imposto:.2f}.\n Valor total: {valor_total:.2f} \n")
