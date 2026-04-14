@@ -10,6 +10,7 @@ Tone_Kq = Peso * 1000
 
 #criacao dos "e se"
 if(CC >= 10 and CC <= 20):
+    # calculo para retirar o preço bruto da carga
     preco_Kq = Tone_Kq * 100
     if(CE == 1):
         imposto = preco_Kq / 0.35
