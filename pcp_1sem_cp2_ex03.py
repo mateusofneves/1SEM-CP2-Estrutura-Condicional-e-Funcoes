@@ -22,7 +22,7 @@ elif nota_cp3 <= nota_cp2 and nota_cp3 <= nota_cp1:
     menor = nota_cp3
 
 #variaveis armazenando as notas medias com e sem peso
-media = ((nota_cp1 + nota_cp2 + nota_cp3 + nota_sp1 + nota_sp2 - menor) * 0.4 + (nota_gs * 0.6)) / 4
+media = ((nota_cp1 + nota_cp2 + nota_cp3 - menor + nota_sp1 + nota_sp2) / 4) * 0.4 + (nota_gs * 0.6)
 media_com_peso = media * 0.4
 
 #exibindo os resultados
