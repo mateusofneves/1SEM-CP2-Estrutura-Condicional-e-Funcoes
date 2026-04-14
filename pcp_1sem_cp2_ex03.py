@@ -18,7 +18,7 @@ if nota_cp1 <= nota_cp2 and nota_cp1 <= nota_cp3:
     menor = nota_cp1
 elif nota_cp2 <= nota_cp1 and nota_cp2 <= nota_cp3:
     menor = nota_cp2
-elif nota_cp3 <= nota_cp2 and nota_cp3 <= nota_cp1:
+else:
     menor = nota_cp3
 
 #variaveis armazenando as notas medias com e sem peso
