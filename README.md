@@ -1,1 +1,19 @@
-# 1SEM-CP2---Esturutra-Condicional-e-Fun-es
+# 1SEM-CP2-Esturutra-Condicional-e-Funções
+
+- Nome Sobrenome: Mateus de Oliveira Fernandes Neves
+- RM: 572431
+
+<br>
+
+- Nome Sobrenome: Paulo Henrique Lira Bilac de Araujo
+- RM: 569496
+
+<br>
+
+- Nome Sobrenome: Angela Souza Takezawa
+- RM:
+
+<br>
+
+- Nome Sobrenome: Pedro Soares de Souza
+- RM: 
