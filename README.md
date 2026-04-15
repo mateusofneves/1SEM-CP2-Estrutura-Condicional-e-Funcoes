@@ -1,24 +1,11 @@
 # 1SEM-CP2-Estrutura-Condicional-e-Funções
 
-- Nome Sobrenome: Mateus de Oliveira Fernandes Neves
-- RM: 572431
+- Mateus de Oliveira Fernandes Neves - RM: 572431
 
-<br>
+- Paulo Henrique Lira Bilac de Araujo - RM: 569496
 
-- Nome Sobrenome: Paulo Henrique Lira Bilac de Araujo
-- RM: 569496
+- Angela Souza Takezawa - RM: 570797
 
-<br>
+- Pedro Soares de Souza - RM: 571285
 
-- Nome Sobrenome: Angela Souza Takezawa
-- RM: 570797
-
-<br>
-
-- Nome Sobrenome: Pedro Soares de Souza
-- RM: 571285
-
-<br>
-
-- Nome Sobrenome: Olavo Dadario Vianna Barreto
-- RM: 569272
+- Olavo Dadario Vianna Barreto - RM: 569272
